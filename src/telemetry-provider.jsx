@@ -1,7 +1,9 @@
 import React, {Component, Fragment} from 'react';
 import {withAITracking} from '@microsoft/applicationinsights-react-js';
-import {ai} from './TelemetryService';
+// import {ai} from './TelemetryService';
 import {withRouter} from 'react-router-dom';
+
+// import { getAppInsights } from './TelemetryService';
 
 /**
  * This Component provides telemetry with Azure App Insights
